@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="answer output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <div class="row">
+                <button data-all-clear class="num">C</button>
+                <button data-delete class="num">Del</button>
+                <button class="num" id="neg">+/-</button>
+                <button data-operation class="num">%</button>
+            </div>
+            <div class="row">
+                <button data-number class="num">1</button>
+                <button data-number class="num">2</button>
+                <button data-number class="num">3</button>
+                <button data-operation class="num">X</button>
+            </div>
+            <div class="row">
+                <button data-number class="num">4</button>
+                <button data-number class="num">5</button>
+                <button data-number class="num">6</button>
+                <button data-operation class="num">+</button>
+            </div>
+            <div class="row">
+                <button data-number class="num">7</button>
+                <button data-number class="num">8</button>
+                <button data-number class="num">9</button>
+                <button data-operation class="num">--</button>
+            </div>
+            <div class="row">
+                <button data-number class="num">0</button>
+                <button data-number class="num" id="decimal">.</button>
+                <button data-equals class="math">=</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
