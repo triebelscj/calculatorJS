@@ -90,3 +90,24 @@
     color: rgb(255, 119, 0);
     font-size: 50px;
 }
+
+button{
+    outline: rgb(165, 26, 149);
+}
+
+.previous-operand{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: rgb(104, 104, 104);
+    font-weight: 100;
+    font-size: 29px;
+}
+
+.current-operand{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    color: rgb(24, 24, 24);
+    font-weight: 300;
+}
